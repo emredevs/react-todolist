@@ -1,0 +1,49 @@
+.container {
+  margin-top: 50px;
+  background-color: antiquewhite;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.noteBtn {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+ul > li {
+  margin-right: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  color: brown;
+}
+input {
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+button {
+  margin-left: 5px;
+  width: 80px;
+  background-color: coral;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  background-color: rgb(236, 27, 12);
+  outline: 2.5px solid rgb(248, 0, 0);
+}
